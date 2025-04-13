@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+    <servlet-name>InvoiceServlet</servlet-name>
+    <servlet-class>servlets.InvoiceServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>InvoiceServlet</servlet-name>
+    <url-pattern>/InvoiceServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
